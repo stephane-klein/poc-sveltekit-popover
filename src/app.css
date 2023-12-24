@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+HTML {
+    font-size: 10px;
+    background-color: #fffcf9;
+}
