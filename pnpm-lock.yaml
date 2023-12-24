@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@rgossiaux/svelte-headlessui':
+    specifier: 2.0.0
+    version: 2.0.0(svelte@4.2.8)
   '@sveltejs/adapter-node':
     specifier: 2.0.2
     version: 2.0.2(@sveltejs/kit@2.0.6)
@@ -391,6 +394,14 @@ packages:
 
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
+    dev: false
+
+  /@rgossiaux/svelte-headlessui@2.0.0(svelte@4.2.8):
+    resolution: {integrity: sha512-ksh245HqMM8yqkzd/OyAK2FCHZYOSA3ldLIHab7C9S60FmifqT24JFVgi8tZpsDEMk3plbfQvfah93n5IEi8sg==}
+    peerDependencies:
+      svelte: ^3.47.0
+    dependencies:
+      svelte: 4.2.8
     dev: false
 
   /@rollup/plugin-commonjs@25.0.7(rollup@4.9.1):
